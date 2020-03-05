@@ -1,0 +1,7 @@
+<div class="f-container" fxLayout="column" *ngFor="let f of filterList">
+    <h4>{{f.name}}</h4>
+    <div *ngFor="let item of f.items; let i=index" >
+        <input type="checkbox" [id]="'check_'+i" [(ngModel)]="item.selected" (change)="toggleFilter(f,item)">
+        <lable [for]="'check_'+i">{{item.name}}</lable> 
+    </div>
+</div>
