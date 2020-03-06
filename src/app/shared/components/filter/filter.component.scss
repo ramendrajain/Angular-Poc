@@ -1,12 +1,15 @@
-.f-container{
-    border: 1px solid #7d7878;
-    min-height: 100px;
-    padding: 10px;
-    margin-bottom: 10px;
+.f-container {
+  border: 1px solid #7d7878;
+  min-height: 100px;
+  padding: 10px;
+  margin: 20px 0px;
+  div {
+    margin: 3px 0px;
+  }
 }
-h4{
-    margin: 0;
+h4 {
+  margin: 0px 0px 5px 0px;
 }
-.mat-checkbox-layout .mat-checkbox-label{
-    white-space: pre-line !important;
+.mat-checkbox-layout .mat-checkbox-label {
+  white-space: pre-line !important;
 }

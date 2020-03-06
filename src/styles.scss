@@ -1,1 +1,16 @@
 /* You can add global styles to this file, and also import other style files */
+body {
+  font-family: Verdana, Geneva, Tahoma, sans-serif !important;
+  margin: 0px;
+  padding: 0px;
+  background-color: cornsilk;
+}
+h3,
+h4 {
+  color: lightslategray;
+}
+@media (max-width: 450px) {
+  body {
+    padding: 5px;
+  }
+}
